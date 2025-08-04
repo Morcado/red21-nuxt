@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
   document: string;
-  title: string;
   name: string;
 }>();
 

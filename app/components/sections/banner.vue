@@ -1,9 +1,9 @@
 <template>
-  <div class="grid grid-cols-3 grid-rows-3 justify-between">
-    <div class="row-span-3 flex justify-center ">
+  <div class="grid grid-flow-cols grid-cols-3 grid-rows-2 justify-between">
+    <div class="col-start-1 row-span-2 flex justify-center ">
       <img class="animation-logo" src="../../assets/images/CIRCULO.png" alt="logo">
     </div>
-    <div class="col-span-2">
+    <div class="col-start-2 col-span-2">
       <div class="">
         <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 864.51 190.45">
           <path class="cls-1"
@@ -23,7 +23,7 @@
             d="M861.42,88.81S777.51,7.59,772.54,2.62s-11-1.35-11-1.35-6,5.89-9.94,9.94,0,9.17,0,9.17l76.15,75-73.35,70.87C745.5,174.8,753,180.5,753,180.5l7.85,7.84c4.37,4.38,11.45,0,11.45,0s82.19-80.33,89.14-87.08S861.42,88.81,861.42,88.81Z" />
         </svg>
       </div>
-      <div class="col-span-2 row-start-2">
+      <div class="col-start-2 col-span-2 row-start-2">
         <h3 class="text-white"><b>Tecnología avanzada</b><br>para tus necesidades</h3>
         <div class="flex flex-row">
           <img class="mx-2" src="../../assets/images/negocio.png" alt="negocio">
@@ -55,7 +55,6 @@
   .animation-logo {
     z-index: -10;
     height: 300px;
-    display: block;
     margin-top: -250px;
     margin-left: auto;
     margin-right: auto;
@@ -76,16 +75,11 @@
   .animation-logo {
     height: 500px;
     margin-left: -250px;
-    overflow: hidden;
-    position: relative;
 
     -webkit-animation: spin 50s linear infinite;
     -moz-animation: spin 50s linear infinite;
     animation: spin 50s linear infinite;
   }
-
-
-
 }
 
 @-moz-keyframes spin {
