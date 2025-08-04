@@ -26,9 +26,9 @@
       <div class="col-span-2 row-start-2">
         <h3 class="text-white"><b>Tecnología avanzada</b><br>para tus necesidades</h3>
         <div class="flex flex-row">
-          <img class="mx-2 small-image" src="../../assets/images/negocio.png" alt="negocio">
-          <img class="mx-2 small-image" src="../../assets/images/hogar.png" alt="hogar">
-          <img class="mx-2 small-image" src="../../assets/images/empresa.png" alt="negocio">
+          <img class="mx-2" src="../../assets/images/negocio.png" alt="negocio">
+          <img class="mx-2" src="../../assets/images/hogar.png" alt="hogar">
+          <img class="mx-2" src="../../assets/images/empresa.png" alt="negocio">
         </div>
       </div>
     </div>
@@ -37,16 +37,16 @@
 </template>
 
 <style scoped>
-  .cls-1 {
-    fill: #fff;
-  }
+.cls-1 {
+  fill: #fff;
+}
 
-  .cls-2 {
-    fill: #ed2024;
-  }
+.cls-2 {
+  fill: #ed2024;
+}
 
 
-  /* mobile */
+/* mobile */
 @media only screen and (max-width: 992px) {
   .small-image {
     height: 100px;
@@ -62,15 +62,15 @@
     overflow: hidden;
     position: relative;
 
-    -webkit-animation:spin 50s linear infinite;
-    -moz-animation:spin 50s linear infinite;
-    animation:spin 50s linear infinite;
+    -webkit-animation: spin 50s linear infinite;
+    -moz-animation: spin 50s linear infinite;
+    animation: spin 50s linear infinite;
   }
 
-  
+
 }
 
-  /* desktop */
+/* desktop */
 @media only screen and (min-width: 992px) {
 
   .animation-logo {
@@ -79,17 +79,31 @@
     overflow: hidden;
     position: relative;
 
-    -webkit-animation:spin 50s linear infinite;
-    -moz-animation:spin 50s linear infinite;
-    animation:spin 50s linear infinite;
+    -webkit-animation: spin 50s linear infinite;
+    -moz-animation: spin 50s linear infinite;
+    animation: spin 50s linear infinite;
   }
 
-  
+
 
 }
 
-  @-moz-keyframes spin { 70% { -moz-transform: rotate(360deg); } }
-  @-webkit-keyframes spin { 70% { -webkit-transform: rotate(360deg); } }
-  @keyframes spin { 70% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin {
+  70% {
+    -moz-transform: rotate(360deg);
+  }
+}
 
+@-webkit-keyframes spin {
+  70% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  70% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 </style>
