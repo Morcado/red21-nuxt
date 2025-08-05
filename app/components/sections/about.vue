@@ -1,9 +1,9 @@
 <template>
-  <div class="grid grid-cols-5 gap-4 p-4 my-40">
-    <div class="col-start-2 col-span-1">
-      <h1 class="text-right text-4xl text-white">Nosotros</h1>
+  <div class="grid md:grid-cols-5 gap-4 md:p-4 xs: my-25 md:my-40">
+    <div class="md:col-start-2 col-span-1">
+      <h1 class="md:text-right text-4xl text-white text-center">Nosotros</h1>
     </div>
-    <div class="col-span-2">
+    <div class="md:col-span-2">
       <p class="text-white text-left">
         Somos una empresa dedicada a las
         telecomunicaciones y servicios de consultaría en TI.

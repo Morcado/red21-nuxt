@@ -1,10 +1,10 @@
 <template>
-  <div class="grid grid-flow-cols grid-cols-3 grid-rows-2 justify-between">
-    <div class="col-start-1 row-span-2 flex justify-center ">
+  <div class="grid md:grid-cols-3 md:justify-between my-30">
+    <div class="md:row-span-2 justify-center">
       <img class="animation-logo" src="../../assets/images/CIRCULO.png" alt="logo">
     </div>
-    <div class="col-start-2 col-span-2">
-      <div class="">
+    <div class="md:col-start-2 md:col-span-2 md:mb-20">
+      <div>
         <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 864.51 190.45">
           <path class="cls-1"
             d="M0,138.58V48.24S.51,38,8.49,38H81.33s19.94,1.8,19.94,20.59S102.82,100.87,67,106l38.09,32.56H77.34L39.63,105.76H25.87V87.62H67.56S81.71,87,83.13,74.49V59.18s-.26-3.86-3.35-3.86H20.46a2.69,2.69,0,0,0-2.44,3v80.3Z" />
@@ -23,12 +23,12 @@
             d="M861.42,88.81S777.51,7.59,772.54,2.62s-11-1.35-11-1.35-6,5.89-9.94,9.94,0,9.17,0,9.17l76.15,75-73.35,70.87C745.5,174.8,753,180.5,753,180.5l7.85,7.84c4.37,4.38,11.45,0,11.45,0s82.19-80.33,89.14-87.08S861.42,88.81,861.42,88.81Z" />
         </svg>
       </div>
-      <div class="col-start-2 col-span-2 row-start-2">
-        <h3 class="text-white"><b>Tecnología avanzada</b><br>para tus necesidades</h3>
-        <div class="flex flex-row">
-          <img class="mx-2" src="../../assets/images/negocio.png" alt="negocio">
-          <img class="mx-2" src="../../assets/images/hogar.png" alt="hogar">
-          <img class="mx-2" src="../../assets/images/empresa.png" alt="negocio">
+      <div class="md:col-start-2 md:col-span-2 md:row-start-2">
+        <h3 class="text-white text-4xl text-center my-20"><b>Tecnología avanzada</b><br>para tus necesidades</h3>
+        <div class="flex xs:flex-col justify-center md:flex-row">
+          <img class="mx-2 h-20 w-auto" src="../../assets/images/negocio.png" alt="negocio">
+          <img class="mx-2 h-20 w-auto" src="../../assets/images/hogar.png" alt="hogar">
+          <img class="mx-2 h-20 w-auto" src="../../assets/images/empresa.png" alt="negocio">
         </div>
       </div>
     </div>
