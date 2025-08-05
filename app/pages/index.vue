@@ -1,10 +1,10 @@
-import { SectionsAbout, Footer } from '../../.nuxt/components';
-
 <template>
+  <Header />
   <div>
     <SectionsBanner />
+    <SectionsPlanes />
     <SectionsNormatividad />
     <SectionsAbout />
-    <Footer />
   </div>
+  <Footer />
 </template>
