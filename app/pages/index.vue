@@ -1,10 +1,9 @@
 <template>
-  <Header />
   <div>
     <SectionsBanner />
     <SectionsPlanes />
     <SectionsNormatividad />
     <SectionsAbout />
+    <Footer />
   </div>
-  <Footer />
 </template>

@@ -4,11 +4,10 @@
       <div class="xs:col-span-1 md:col-start-2">
         <h1 class="text-4xl text-white text-center">Contáctanos</h1>
         <div class="flex flex-inline justify-center">
-          <a href="https://wa.me/+524444431774" >
+          <a href="https://wa.me/+524444431774">
             <svg version="1.1" id="ELEMENTS" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360.5 362.3"
-              style="enable-background: new 0 0 360.5 362.3" xml:space="preserve" class="p-3" width="80px"
-              height="80px">
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360.5 362.3" xml:space="preserve"
+              class="p-3" width="80px" height="80px">
               <g>
                 <path class="st0" d="M0,362.3l26-96.9C11.3,238.9,3.5,209.1,3.5,179c0-98.7,80.3-179,179-179c98.7,0,179,80.3,179,179
               s-80.3,179-179,179c-29.6,0-58.9-7.5-85.1-21.7L0,362.3z M102.3,299.9l6.1,3.7c22.5,13.4,48.1,20.5,74.1,20.5
@@ -23,21 +22,20 @@
               </g>
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/cesreyti/" >
+          <a href="https://www.linkedin.com/in/cesreyti/">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 39.8 39.8"
-              style="enable-background: new 0 0 39.8 39.8" xml:space="preserve" class="p-3" width="80px" height="80px">
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 39.8 39.8" xml:space="preserve"
+              class="p-3" width="80px" height="80px">
               <path class="st0" d="M34.3,0H5.5C2.5,0,0,2.5,0,5.5v28.7c0,3.1,2.5,5.5,5.5,5.5h28.7c3.1,0,5.5-2.5,5.5-5.5V5.5
           C39.8,2.5,37.3,0,34.3,0z M12.2,33.1H6.6V14.4h5.5V33.1z M9.4,12.7L9.4,12.7c-1.9,0-3.3-1.4-3.3-3.3c0-1.9,1.4-3.3,3.3-3.3
           c1.9,0,3.3,1.4,3.3,3.3C12.7,11.3,11.3,12.7,9.4,12.7z M27.6,33.1V23.1c0-2.4-1.4-4.1-3.5-4.1c-1.7,0-2.6,1.1-3,2.2
           c-0.2,0.4-0.1,1.5-0.1,2v9.9h-5.5V14.4H21v2.9c0.8-1.2,2-2.9,5.2-2.9c4,0,6.9,2.5,6.9,8l0,10.7H27.6z" />
             </svg>
           </a>
-          <a href="https://www.facebook.com/red.21telco" >
+          <a href="https://www.facebook.com/red.21telco">
             <svg version="1.1" id="ELEMENTS" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 255.2 476.6"
-              style="enable-background: new 0 0 255.2 476.6" xml:space="preserve" class="p-3" width="80px"
-              height="80px">
+              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 255.2 476.6" xml:space="preserve"
+              class="p-3" width="80px" height="80px">
               <path class="st0" d="M238.5,268.1l13.2-86.3H169v-56c0-23.6,11.6-46.6,48.6-46.6h37.6V5.8c0,0-34.2-5.8-66.8-5.8
         C120.3,0,75.8,41.3,75.8,116.1v65.7H0v86.2h75.8v208.5H169V268.1L238.5,268.1L238.5,268.1z" />
             </svg>

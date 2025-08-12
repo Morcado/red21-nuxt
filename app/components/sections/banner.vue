@@ -41,7 +41,6 @@
 @media only screen and (max-width: 992px) {
   .animation-logo {
     z-index: -10;
-    height: 300px;
     margin-top: -250px;
     margin-left: auto;
     margin-right: auto;
@@ -60,7 +59,6 @@
 @media only screen and (min-width: 992px) {
 
   .animation-logo {
-    height: 500px;
     margin-left: -250px;
 
     -webkit-animation: spin 50s linear infinite;
