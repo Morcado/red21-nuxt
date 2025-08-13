@@ -1,15 +1,22 @@
 <script setup lang="ts">
-defineProps<{
-  document: string;
+const props = defineProps<{
+  fileName: string;
   name: string;
 }>();
 
-
+function downloadFile() {
+  const link = document.createElement('a');
+  link.href = "/documents/" + props.fileName; // Path to the file in the public directory
+  link.download = props.fileName; // Suggested filename
+  link.click();
+}
 </script>
 
 <template>
 
-  <button class="cursor-pointer border-4 border-red-700 bg-radial from-red-800 
+  <button 
+  @click="downloadFile()"
+  class="cursor-pointer border-4 border-red-700 bg-radial from-red-800 
         from-5% to-black md:h-50 md:w-50 xs:h-30 xs:mx-auto md:mx-5 p-4 rounded-full 
         transition-all duration-200 hover:scale-110 active:scale-95 hover:bg-yellow-500">
     <div class="flex flex-col items-center">

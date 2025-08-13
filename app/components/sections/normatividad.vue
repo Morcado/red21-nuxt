@@ -9,11 +9,11 @@
       </p>
     </div>
     <div class="flex flex-col md:flex-row justify-center content-center gap-8">
-      <DocumentButton name="Constancia IFT Cobertura" document="CONSTANCIA-IFT-COBERTURA.pdf" />
-      <DocumentButton name="Derechos del usuario" document="DERECHOS-DEL-USUARIO.pdf" />
-      <DocumentButton name="Constancia IFT nombre comercial" document="CONSTANCIA-IFT-NOMBRE-COMERCIAL.pdf" />
-      <DocumentButton name="Prácticas comerciales" document="PRACTICAS-COMERCIALES.pdf" />
-      <DocumentButton name="Contrato de adhesión" document="CONTRATO_ADHESION.docx" />
+      <DocumentButton name="Constancia IFT Cobertura" fileName="CONSTANCIA-IFT-COBERTURA.pdf" />
+      <DocumentButton name="Derechos del usuario" fileName="DERECHOS-DEL-USUARIO.pdf" />
+      <DocumentButton name="Constancia IFT nombre comercial" fileName="CONSTANCIA-IFT-NOMBRE-COMERCIAL.pdf" />
+      <DocumentButton name="Prácticas comerciales" fileName="PRACTICAS-COMERCIALES.pdf" />
+      <DocumentButton name="Contrato de adhesión" fileName="CONTRATO_ADHESION.docx" />
     </div>
   </div>
 </template>
