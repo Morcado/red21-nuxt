@@ -1,7 +1,7 @@
 <script>
 </script>
 <template>
-  <div class="grid md:grid-cols-1 md:grid-rows-2 md:my-40 ">
+  <div id="normatividad" class="grid md:grid-cols-1 md:grid-rows-2 md:my-40 ">
     <div class="flex flex-col items-center gap-4 my-20">
       <h1 class="text-4xl text-white text-center">Normatividad</h1>
       <p class="text-white text-center">

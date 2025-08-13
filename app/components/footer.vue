@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer id="contacto">
     <div class="grid xs:grid-cols-1 md:grid-cols-6 md:justify-items-between gap-4 md:p-4 xs:my-40 my-10">
       <div class="xs:col-span-1 md:col-start-2">
         <h1 class="text-4xl text-white text-center">Contáctanos</h1>

@@ -1,4 +1,5 @@
 <template>
+  <NavigationMenu></NavigationMenu>
   <div>
     <SectionsBanner />
     <SectionsPlanes />

@@ -37,7 +37,7 @@ const planesMicroondas: CarrouselImage[] = microondaImages.map((img, i) => ({
 </script>
 
 <template>
-  <div class="xs:p-1 md:p-4 rounded-xl shadow-lg">
+  <div id="planes" class="xs:p-1 md:p-4 rounded-xl shadow-lg">
     <h2 class="text-4xl text-center text-white mb-4">
       Planes
     </h2>

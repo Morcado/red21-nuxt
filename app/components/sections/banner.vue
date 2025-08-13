@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-3 md:justify-between my-30">
+  <div id="inicio" class="grid md:grid-cols-3 md:justify-between my-30">
     <div class="md:row-span-2 justify-center">
       <img class="animation-logo" src="../../assets/images/CIRCULO.png" alt="logo">
     </div>
@@ -40,7 +40,6 @@
 /* mobile */
 @media only screen and (max-width: 992px) {
   .animation-logo {
-    z-index: -10;
     margin-top: -250px;
     margin-left: auto;
     margin-right: auto;
@@ -60,7 +59,6 @@
 
   .animation-logo {
     margin-left: -250px;
-
     -webkit-animation: spin 50s linear infinite;
     -moz-animation: spin 50s linear infinite;
     animation: spin 50s linear infinite;

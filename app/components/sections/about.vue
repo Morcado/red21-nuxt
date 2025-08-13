@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-5 gap-4 md:p-4 xs: my-25 md:my-40">
+  <div id="acerca-de" class="grid md:grid-cols-5 gap-4 md:p-4 xs: my-25 md:my-40">
     <div class="md:col-start-2 col-span-1">
       <h1 class="md:text-right text-4xl text-white text-center">Nosotros</h1>
     </div>

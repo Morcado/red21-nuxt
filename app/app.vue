@@ -5,6 +5,9 @@
 </template>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-image: url('../app/assets/background/full-background.png') ;
