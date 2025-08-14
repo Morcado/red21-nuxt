@@ -1,10 +1,12 @@
 <template>
-  <NavigationMenu></NavigationMenu>
   <div>
-    <SectionsBanner />
-    <SectionsPlanes />
-    <SectionsNormatividad />
-    <SectionsAbout />
-    <Footer />
+    <NavigationMenu></NavigationMenu>
+    <div>
+      <SectionsBanner />
+      <SectionsPlanes />
+      <SectionsNormatividad />
+      <SectionsAbout />
+      <Footer />
+    </div>
   </div>
 </template>

@@ -25,7 +25,7 @@
         </svg>
       </div>
       <div class="md:col-start-2 md:col-span-2 md:row-start-2">
-        <h3 class="text-white text-4xl text-center my-20"><b>Tecnología avanzada</b><br>para tus necesidades</h3>
+        <h2 class="text-center my-20"><b>Tecnología avanzada</b><br>para tus necesidades</h2>
         <div class="flex xs:flex-col justify-center md:flex-row">
           <img class="mx-2 h-20 w-auto" src="../../assets/images/negocio.png" alt="negocio">
           <img class="mx-2 h-20 w-auto" src="../../assets/images/hogar.png" alt="hogar">

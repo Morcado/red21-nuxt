@@ -1,14 +1,32 @@
 @import "tailwindcss";
 
-@theme {
-  --font-gadugi: Gadugi, sans-serif;
+@font-face {
+  font-family: "Gadugi";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/gadugi.ttf") format('truetype');
 }
 
-@font-face {
-  font-family: Gadugi;
-  font-style: normal;
-  font-weight: 200 700;
-  font-display: swap;
-  src: url("../../assets/fonts/gadugi.ttf") format("truetype");
+@theme {
+  --font-sans: "Gadugi", sans-serif;
 }
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+
+  h2 {
+    @apply text-4xl text-white;
+  }
+  h3 {
+    @apply text-2xl text-white;
+  }
+  body {
+    background-color: black;
+    background-image: url('../background/full-background.png') ;
+    background-size: cover;
+  }
+}
+
 

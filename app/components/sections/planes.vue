@@ -38,15 +38,15 @@ const planesMicroondas: CarrouselImage[] = microondaImages.map((img, i) => ({
 
 <template>
   <div id="planes" class="xs:p-1 md:p-4 rounded-xl shadow-lg">
-    <h2 class="text-4xl text-center text-white mb-4">
+    <h2 class="text-center mb-4">
       Planes
     </h2>
-    <p class="text-white text-center mb-4">
+    <p class="text-center mb-4">
       Consulta los planes que tenemos de fibra optica y microondas.
     </p>
-    <h3 class="text-white text-center text-2xl mb-4">Planes fibra optica</h3>
+    <h3 class="text-center mb-4">Planes fibra optica</h3>
     <Carrousel v-if="fibraImages" :images="planesFibra" class="mb-8"></Carrousel>
-    <h3 class="text-white text-center text-2xl mb-4">Planes microondas</h3>
+    <h3 class="text-center mb-4">Planes microondas</h3>
     <Carrousel v-if="microondaImages" :images="planesMicroondas" class="mb-8"></Carrousel>
   </div>
 </template>

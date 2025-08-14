@@ -20,7 +20,7 @@ const navLinks = [
 </script>
 
 <template>
-  <header class="bg-black/70 text-white shadow-lg fixed top-0 left-0 w-full z-50">
+  <header class="bg-black/70 shadow-lg fixed top-0 left-0 w-full z-50">
     <div class="container mx-auto flex items-center xs:justify-between md:justify-center p-4">
 
       <button @click="toggleMenu"
@@ -49,7 +49,7 @@ const navLinks = [
   </header>
 
   <aside
-    class="fixed md:hidden top-0 left-0 h-full w-full bg-black/60 text-white transform transition-transform duration-300 ease-in-out z-40"
+    class="fixed md:hidden top-0 left-0 h-full w-full bg-black/60 transform transition-transform duration-300 ease-in-out z-40"
     :class="isMenuOpen ? 'translate-x-0' : '-translate-x-full'">
     <nav class="flex flex-col p-4 space-y-10 mt-20">
       <NuxtLink v-for="link in navLinks" :key="link.name" :to="link.path" @click="toggleMenu"

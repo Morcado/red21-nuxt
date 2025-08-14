@@ -1,11 +1,11 @@
 <template>
   <div id="acerca-de" class="grid md:grid-cols-4 gap-4 md:p-4 xs: my-25 md:my-40">
     <div class="md:col-start-1 md:col-span-5 ">
-      <h1 class=" text-4xl text-white text-center">Nosotros</h1>
+      <h2 class="text-center">Nosotros</h2>
     </div>
     <div class="md:col-start-2 md:col-span-2">
-      <h4 class="text-white text-2xl">Misión</h4>
-      <p class="text-white text-left text-md/6">
+      <h3 class="">Misión</h3>
+      <p class="text-left text-md/6">
         Nuestra misión es proporcionar soluciones de telecomunicaciones innovadoras y confiables que conecten a las
         personas, empresas y comunidades en el área del altiplano de san Luis potosí y en el estado de zacatecas.
       </p>
@@ -13,8 +13,8 @@
     <div class="md:col-start-3 md:row-start-3 md:col-span-1 ">
 
       <br>
-      <h4 class="text-white text-2xl">Visión</h4>
-      <p class="text-white text-left text-md/6">
+      <h3 class="">Visión</h3>
+      <p class="text-left text-md/6">
         Nuestra visión es construir un San Luis Potosí completamente conectado, donde la comunicación sin fronteras sea
         una realidad para todos.
         Ser el líder indiscutible en soluciones de telecomunicaciones, proporcionando servicios innovadores y de alta
@@ -28,8 +28,8 @@
     <div class="md:col-start-2 md:row-start-3 md:col-span-1">
 
       <br>
-      <h4 class="text-white text-2xl">Objetivos</h4>
-      <p class="text-white text-left text-md/6">
+      <h3 class="">Q I Objetivos</h3>
+      <p class="text-left text-md/6">
         Ofrecer servicios de alta calidad que mejoren la conectividad de nuestros clientes, al tiempo que impulsamos el
         desarrollo económico y social a través de la conectividad global.
         Ser líderes en tecnología, brindando infraestructura de red de última generación, servicios de comunicaciones

@@ -27,7 +27,7 @@ function downloadFile() {
         ">
     <div class="flex flex-col items-center">
       <img src="../assets/icons/descarga.png" alt="Down arrow" class="w-10 h-10" />
-      <span class="mt-1 text-white text-sm font-semibold group-hover:text-yellow-500">
+      <span class="mt-1 text-sm font-semibold group-hover:text-yellow-500">
         {{ name }}
       </span>
     </div>

@@ -2,7 +2,7 @@
   <footer id="contacto">
     <div class="grid xs:grid-cols-1 md:grid-cols-6 md:justify-items-between gap-4 md:p-4 xs:my-40 my-10">
       <div class="xs:col-span-1 md:col-start-2">
-        <h1 class="text-4xl text-white xs:text-center md:text-left">Contáctanos</h1>
+        <h2 class="xs:text-center md:text-left">Contáctanos</h2>
         <div class="flex flex-inline xs:justify-center md:justify-start gap-4">
           <a href="https://wa.me/+524444431774">
             <svg version="1.1" id="ELEMENTS" xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +63,8 @@
         </svg>
         <div class="flex flex-col gap-2">
 
-          <p class="text-white font-bold">Cesar Reyes Mata</p>
-          <p class="text-white flex flex-inline gap-4">
+          <p class=" font-bold">Cesar Reyes Mata</p>
+          <p class=" flex flex-inline gap-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="size-6">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -72,7 +72,7 @@
             </svg>
             <a href="mailto:creyes@red21.work">creyes@red21.work</a>
           </p>
-          <p class="text-white flex flex-inline gap-4">
+          <p class=" flex flex-inline gap-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="size-6">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -81,13 +81,13 @@
 
             <a href="tel:+4444431774">444 443 1774</a>
           </p>
-          <p class="text-white"><b>IFTEL: </b>FET103371CO-521671</p>
+          <p class=""><b>IFTEL: </b>FET103371CO-521671</p>
         </div>
         <br />
         <div class="flex flex-col gap-2">
 
-          <p class="text-white font-bold">Gabriel Enrique Sanchez de la Vega</p>
-          <p class="text-white"><b>RFC:</b> SALG790915UW5</p>
+          <p class=" font-bold">Gabriel Enrique Sanchez de la Vega</p>
+          <p class=""><b>RFC:</b> SALG790915UW5</p>
         </div>
       </div>
 
