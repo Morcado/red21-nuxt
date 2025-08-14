@@ -1,7 +1,8 @@
 <template>
   <div id="inicio" class="grid md:grid-cols-3 md:justify-between my-30">
     <div class="md:row-span-2 justify-center">
-      <img class="animation-logo" src="../../assets/images/CIRCULO.png" alt="logo">
+      <img class="animation-logo animate-[spin_50s_linear_infinite] -mt-70  md:mt-10 md:-ms-50 lg:-ms-70 lg:mt-10"
+        src="../../assets/images/CIRCULO.png" alt="logo">
     </div>
     <div class="md:col-start-2 md:col-span-2 md:mb-20">
       <div>
@@ -35,52 +36,3 @@
   </div>
 
 </template>
-
-<style scoped>
-/* mobile */
-@media only screen and (max-width: 992px) {
-  .animation-logo {
-    margin-top: -250px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    position: relative;
-
-    -webkit-animation: spin 50s linear infinite;
-    -moz-animation: spin 50s linear infinite;
-    animation: spin 50s linear infinite;
-  }
-
-
-}
-
-/* desktop */
-@media only screen and (min-width: 992px) {
-
-  .animation-logo {
-    margin-left: -250px;
-    -webkit-animation: spin 50s linear infinite;
-    -moz-animation: spin 50s linear infinite;
-    animation: spin 50s linear infinite;
-  }
-}
-
-@-moz-keyframes spin {
-  70% {
-    -moz-transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes spin {
-  70% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  70% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-</style>
