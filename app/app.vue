@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  background-color: black;
   background-image: url('../app/assets/background/full-background.png') ;
   background-size:cover;
   margin-left: 4rem;
