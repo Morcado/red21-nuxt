@@ -2,8 +2,8 @@
   <footer id="contacto">
     <div class="grid xs:grid-cols-1 md:grid-cols-6 md:justify-items-between gap-4 md:p-4 xs:my-40 my-10">
       <div class="xs:col-span-1 md:col-start-2">
-        <h1 class="text-4xl text-white text-center">Contáctanos</h1>
-        <div class="flex flex-inline justify-center">
+        <h1 class="text-4xl text-white xs:text-center md:text-left">Contáctanos</h1>
+        <div class="flex flex-inline xs:justify-center md:justify-start gap-4">
           <a href="https://wa.me/+524444431774">
             <svg version="1.1" id="ELEMENTS" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360.5 362.3" xml:space="preserve"
@@ -61,11 +61,34 @@
           <path class="cls-2"
             d="M861.42,88.81S777.51,7.59,772.54,2.62s-11-1.35-11-1.35-6,5.89-9.94,9.94,0,9.17,0,9.17l76.15,75-73.35,70.87C745.5,174.8,753,180.5,753,180.5l7.85,7.84c4.37,4.38,11.45,0,11.45,0s82.19-80.33,89.14-87.08S861.42,88.81,861.42,88.81Z" />
         </svg>
-        <p class="text-white font-gadugi">email: <a href="mailto:creyes@red21.work">creyes@red21.work</a></p>
-        <p class="text-white">phone: <a href="tel:+4444431774">+52 444 443 1774</a></p>
+        <div class="flex flex-col gap-2">
+
+          <p class="text-white font-bold">Cesar Reyes Mata</p>
+          <p class="text-white flex flex-inline gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+            <a href="mailto:creyes@red21.work">creyes@red21.work</a>
+          </p>
+          <p class="text-white flex flex-inline gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+            </svg>
+
+            <a href="tel:+4444431774">444 443 1774</a>
+          </p>
+          <p class="text-white"><b>IFTEL: </b>FET103371CO-521671</p>
+        </div>
         <br />
-        <p class="text-white"><b>IFTEL</b></p>
-        <p class="text-white">FET103371CO-521671</p>
+        <div class="flex flex-col gap-2">
+
+          <p class="text-white font-bold">Gabriel Enrique Sanchez de la Vega</p>
+          <p class="text-white"><b>RFC:</b> SALG790915UW5</p>
+        </div>
       </div>
 
     </div>

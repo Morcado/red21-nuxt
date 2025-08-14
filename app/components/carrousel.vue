@@ -45,7 +45,7 @@ const scrollRight = () => {
     <div v-for="(image, index) in images" :key="index"
       class="flex-none w-80 md:w-96 rounded-xl overflow-hidden shadow-md snap-center">
       <img :src="image.src" :alt="image.alt"
-        class="w-full h-160 object-cover transform hover:scale-105 transition duration-300" />
+        class="w-full h-135 object-contain transform hover:scale-105 transition duration-300 " />
     </div>
   </div>
   <div class="flex justify-between mt-4">
