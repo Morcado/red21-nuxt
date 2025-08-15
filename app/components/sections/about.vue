@@ -28,7 +28,7 @@
     <div class="md:col-start-2 md:row-start-3 md:col-span-1">
 
       <br>
-      <h3 class="">Q I Objetivos</h3>
+      <h3 class="">Objetivos</h3>
       <p class="text-left text-md/6">
         Ofrecer servicios de alta calidad que mejoren la conectividad de nuestros clientes, al tiempo que impulsamos el
         desarrollo económico y social a través de la conectividad global.

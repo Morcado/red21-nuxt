@@ -35,7 +35,7 @@ const navLinks = [
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
         </svg>
       </button>
-      
+
       <nav class="hidden md:flex space-x-6">
         <NuxtLink v-for="link in navLinks" :key="link.name" :to="link.path"
           class="hover:text-cyan-400 transition-colors duration-300">

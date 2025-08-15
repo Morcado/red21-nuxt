@@ -1,5 +1,3 @@
-<script>
-</script>
 <template>
   <div id="normatividad" class="grid md:grid-cols-1 md:grid-rows-2 md:my-40 ">
     <div class="flex flex-col items-center gap-4 my-20">

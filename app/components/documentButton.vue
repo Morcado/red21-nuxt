@@ -14,9 +14,7 @@ function downloadFile() {
 
 <template>
 
-  <button 
-  @click="downloadFile()"
-  class="cursor-pointer border-4 
+  <button @click="downloadFile()" class="cursor-pointer border-4 
         border-red-700 hover:border-yellow-500 
         bg-radial from-red-800 from-5% to-black 
         hover:from-yellow-600 
